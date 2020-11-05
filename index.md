@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9,user-scalable=0"/>
+    <title>验证结果</title>
+    <style type="text/css">
+		div{
+			line-height:50px;
+			text-align:center;
+			font-size:28px;
+		}
+	</style>
+    <script type="text/javascript">
+        function reloadImg() {
+            /*var el=document.getElementById("headerPhoto");
+            el.src=el.src+"?t="+new Date().getTime();*/
+        }
 
-You can use the [editor on GitHub](https://github.com/Lwisce/wanwanin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    </script>
+</head>
+<body style="margin:20px auto;width:90%" onload="reloadImg()">
+<div>您的进入校园验证结果</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div  style="color:#00AA00;">
+	<div><img id="headerPhoto" style="max-width:150px" src="C:\Users\Administrator\Desktop\婉婉\wanwan.jpg"/></div>
+    <span>陈王婉嫕</span>，<span>女</span>，<span>21</span>岁
+    <br/>
+    部门：<span>法学院</span>
 
-### Markdown
+    <br/> <span >您可以进校</span>
+    <br/><img src="C:\Users\Administrator\Desktop\婉婉\right.jpg" style="width: 150px"/>
+  <!--  <br/>当前时间：<span></span>-->
+</div>
+<div style="font-size: 20px">当前时间是：<span><script type="text/javascript">
+    var t=new Date();
+    var year=t.getFullYear();
+    var month=t.getMonth()+1;
+    var day=t.getDate();
+    var hour=t.getHours();
+    var minute=t.getMinutes();
+    var showtime=month + "月" + day+"日 "+hour+":"+minute;
+    document.write(showtime);
+    </script></span></div>
+</body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Lwisce/wanwanin/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
